@@ -22,7 +22,7 @@ export class VerPaisComponent implements OnInit {
 
       this.paisSvc.VerPais(id)
           .subscribe( pais =>{
-            this.pais = pais;
+            this.pais = pais;            
       });    
     });
 
